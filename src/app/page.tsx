@@ -207,7 +207,7 @@ export default function Home() {
           </div>
           <div>
             <h1 className="text-sm font-semibold text-[var(--text)]">AdCraft</h1>
-            <p className="text-[10px] text-[var(--text-muted)]">AI Product Ad Generator</p>
+            <p className="text-[10px] text-[var(--text-muted)]">AI Product Ad Generator — by Muhammad Usman Shahid</p>
           </div>
         </div>
 
@@ -244,6 +244,9 @@ export default function Home() {
                   </p>
                 </div>
                 <UploadZone onUpload={handleUpload} disabled={isAnalyzing} />
+                <p className="text-xs text-[var(--text-muted)] mt-2">
+                  Built by <span className="text-[var(--accent)] font-medium">Muhammad Usman Shahid</span>
+                </p>
                 <div className="flex items-center justify-center gap-6 mt-8 text-xs text-[var(--text-muted)]">
                   <span className="flex items-center gap-1.5">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
